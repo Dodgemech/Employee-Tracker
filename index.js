@@ -6,7 +6,7 @@ require('console.table');
 // function that holds prompts
 const mainPrompts = () => {
     console.log("Welcome to Employee Tracker!");
-    return inquirer
+    inquirer
         .prompt([
             {
                 type: 'list',
